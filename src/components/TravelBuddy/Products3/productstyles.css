@@ -1,0 +1,180 @@
+
+.ProductContainer{
+  min-height: 100vh;
+  padding: 4rem calc((100vw - 1300px) / 2);
+background: #010606;
+  color: #fff;
+}
+
+.ProductWrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.ProductCard{
+  margin: 1rem 2rem;
+  line-height: 2;
+  width: 350px;
+  display: flex-box;
+  align-items: center;
+  justify-content: center;
+}
+
+.ProductImg{
+  height: 300px;
+  width: 320px;
+  max-width: 100%;
+  border-radius:8px;
+  transition: all 0.3s ease-out;
+}
+
+.ProductImg:hover{
+    cursor: pointer;
+}
+
+.ProductHeading{
+  font-size: clamp(2rem, 2.5vw, 3rem);
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.ProductTitle{
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.ProductFrom{
+   display: flex;
+   justify-content: center;
+}
+
+
+.ProductInfo{
+  height: 300px;
+  width: 320px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+  position: absolute;
+  background: whitesmoke;
+
+  color: #fff;
+  border-radius:8px;
+  background: #132626;
+}
+
+.ProductInfo:hover{
+    cursor: pointer;
+}
+
+
+.ProductList{
+   display: flex;
+   text-align: left;
+   align-items: center;
+   margin: 0 auto;
+}
+
+
+.ProductLabel{
+   display: flex;
+   justify-content: start;
+}
+
+.ProductDesc{
+  margin-left: 10px;
+}
+
+.ProductPrice{
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.ProductButton{
+border-radius: 50px;
+margin-top: 16px;
+  font-size: 1rem;
+  padding: 1rem 4rem;
+  border: none;
+
+  background: #01bf71;
+  color: #010606;
+  transition: 0.2 ease-out;
+
+}
+
+.ProductEnd{
+  margin: 16px auto;
+  width: 280px;
+  border: 3px solid #01bf71;
+  border-radius: 5px;
+}
+
+.ProductBox{
+display: flex;
+}
+
+.ProductTravelMain{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 320px;
+}
+
+
+
+
+/* 
+
+.ProductImg{
+    height: 300px;
+    width: 320px;
+    max-width: 100%;
+    border-radius:8px;
+    transition: all 0.3s ease-out;
+}
+
+.ProductInfo{
+    height: 300px;
+    width: 320px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    text-align: center;
+    position: absolute;
+    top:0;
+    background: whitesmoke;
+  
+    color: #fff;
+    border-radius:8px;
+    background: #132626;
+  } */
+  
+
+.card{
+    transform-style: preserve-3d;
+    transition: all 0.8s ease;
+}
+
+.front{
+    backface-visibility: hidden;
+}
+
+.back{
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+
+.cardFlip{
+    transform: rotateY(180deg);
+}
