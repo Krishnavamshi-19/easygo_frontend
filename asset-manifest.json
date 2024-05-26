@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/easygo_frontend/static/css/main.b2dff2de.css",
+    "main.js": "/easygo_frontend/static/js/main.e0c3ed59.js",
+    "static/media/video.mp4": "/easygo_frontend/static/media/video.7d1ea6a94986d5c2a068.mp4",
+    "static/media/endo.png": "/easygo_frontend/static/media/endo.e3f8cec787cd5ef7e6b4.png",
+    "static/media/product-1.jpg": "/easygo_frontend/static/media/product-1.36d084f3e4823b981b4b.jpg",
+    "static/media/svg-1.svg": "/easygo_frontend/static/media/svg-1.34d86b3ba49cbb3ac62e11b8edb19789.svg",
+    "static/media/svg-3.svg": "/easygo_frontend/static/media/svg-3.4b6958db1fc20efcaef56ce022c806a0.svg",
+    "static/media/svg-2.svg": "/easygo_frontend/static/media/svg-2.67eb1673a57a2bc7f8ae864fa2509475.svg",
+    "index.html": "/easygo_frontend/index.html",
+    "main.b2dff2de.css.map": "/easygo_frontend/static/css/main.b2dff2de.css.map",
+    "main.e0c3ed59.js.map": "/easygo_frontend/static/js/main.e0c3ed59.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2dff2de.css",
+    "static/js/main.e0c3ed59.js"
+  ]
+}
